@@ -1,0 +1,26 @@
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+}
+.editor-title {
+  display: flex;
+  h3 {
+    color: white;
+  }
+}
+.code-mirror-wrapper {
+  flex-grow: 1;
+  overflow: hidden;
+  width: 100%;
+}
+.CodeMirror {
+  height: 100% !important;
+
+  font-size: 16px;
+}
+.CodeMirror-linenumber {
+  opacity: 0.5;
+  color: white !important;
+}
