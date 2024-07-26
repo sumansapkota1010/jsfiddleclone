@@ -86,11 +86,14 @@ const Content = () => {
                     <div className="middle-box">
                         <div className="html">
                             <Editor
-                                langauge="xml"
-                                displayName="HTML"
-                                value={html}
-                                onChange={setHtml}
-                            />
+                               
+                               language="xml"
+                               displayName="HTML"
+                               value={html}
+                               onChange={setHtml}
+                           />
+                           
+                            
                         </div>
                         <div className="js">
                             <Editor
